@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000E09;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-group {
+display: flex;
+justify-content: center;
+
+}
+h2{
+  text-align: center;
+  font: normal normal normal 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #000503;
+  opacity: 1;
+}
+p{
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  letter-spacing: 0.02px;
+  color: #36A546;
+  opacity: 1;
+}
+.container {
+  display: flex;
+  background-color: #000E09;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px; 
+  margin-top:50px ;
+}
+.container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.searchInput{
+  padding-right: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  background-size: 20px;
+}
+.search > ::placeholder{
+  text-align: center;
+  font: normal normal bold 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #FFFFFFB3;
+}
+::placeholder{
+  color : white;
+  text-align:center ;
+}
+.form-group input,button {
+  margin: 6px;
+  width:  250px;
+  height: 42px;
+
+  background: #1F191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+#password{
+  border-radius: 50px;
+}
+#email{
+  border-radius: 50px;
+}
+#home{
+  border-radius: 50px;
+  width: 60%;
+}
+#contact{
+  border-radius: 50px;
+  width: 60%;
+}
+#btn{
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+}
+.btn {
+  background: linear-gradient(180deg, #00FF25, #36A546, #000000);
+  color: #fff;
+  border: none;
+  /* margin-top: 50px; */
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.innerInnerDiv{
+    display: flex;
+    justify-content : flex-end;
+    width : 5px;
+    height : 5px;
+    margin-right: 100px;
+    margin-top: -11px;
+    color: #00FF2580;
+    border-radius : 50%;
+}
+.innerDiv{
+    display: flex;
+    justify-content : flex-end;
+}
+.card{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  margin: 10px;
+  padding: 5px;
+  background: #1F191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+  mix-blend-mode: normal;
+  border-radius: 10%;
+}
+.card > p{
+  color: white;
+} 
+#emp-dob{
+  color: orange;
+}
+#emp-role{
+  color: green;
+}
+
+#counter{
+  display: flex;
+  align-self:flex-end;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff66;
+  border-radius: 60%;
+  margin: 2px ;
+  padding: 1px;
+}
+
+.navbar{
+  margin-bottom: -97px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: -20px;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+}
+.progress-bar { 
+  background-color: rgb(192, 192, 192); 
+  border-radius: 15px; 
+} 
+
+.progress-div { 
+  background-color:#36A546;
+  color: white; 
+  padding: 1%; 
+  text-align: right; 
+  font-size: 20px; 
+  border-radius: 15px; 
+} 
+
+.percentage{ 
+  margin-left: 100px; 
+  color: #36A546;
+} 
